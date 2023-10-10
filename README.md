@@ -1,15 +1,13 @@
-repo-template
 
-This repo is a starting point for uniformity among project repos.  Just clone it and create an RStudio project from the now-existing folder and you're off.  You also need to create a `data` folder at the top level to go with others seen here, but note that it is already added to .gitignore, so its contents should never appear on GitHub.
+# Github FAQs for MEDLab
 
-Consult the `other_docs/style_suggestions.Rmd`  before getting too carried away.
+This is a quick reference page for new MEDLab members. New members of MEDLab could use this page as a starting point for all project repos for the lab. The setup assumes the new member has access to MacOS or Unix machine and uses some terminal commands for setup.
 
-## Readme Page tempate
+## Prerequisites
 
-For this main page, add project description, and documents and links. Below is a template structure.
-
-
-# Project Name
+1) [R](https://www.r-project.org) and [Rstudio](https://posit.co) installed on the machine.
+2) A [github](https://github.com) account.
+3) 
 
 ## Summary
 
