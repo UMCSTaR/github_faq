@@ -1,0 +1,6 @@
+---
+title: "ReadMe"
+output: html_document
+---
+
+Code used to produce manuscript results, including table1, models and visualization. Don't put QA or exploratory code here. All code in this folder are used to produce manuscript.
