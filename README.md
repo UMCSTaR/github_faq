@@ -129,11 +129,15 @@ alt="Fig:sample github repo page" />
     respectively in the changes you are making. After checking the
     “Staged” check boxes, click on the “Commit” button to bring up the
     following window. Enter an informative description of the changes
-    you are making to the “Commit message” field. Once ready, hit the
-    “Commit” button. A commit confirmation window will pop-up. You may
-    close that window. then hit the “Push” button to push the commit to
-    the repo. A push confirmation window will pop-up. You may close that
-    window. You have just pushed changes to the repo on github.
+    you are making to the “Commit message” field. Note that there are
+    portions of code highlighted red and green which denote text deleted
+    from the version on github and text added relative to the version on
+    github respectively. You can use this diffs as reference to annotate
+    your commit. Once ready, hit the “Commit” button. A commit
+    confirmation window will pop-up. You may close that window. then hit
+    the “Push” button to push the commit to the repo. A push
+    confirmation window will pop-up. You may close that window. You have
+    just pushed changes to the repo on github.
 
 ![Fig:rstudio commit-ui](images/commit_message.png) ![Fig:rstudio
 commit-confirmation](images/commit_confirm.png)
