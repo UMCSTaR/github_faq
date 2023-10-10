@@ -47,17 +47,34 @@ cat .ssh/id_rsa.pub
 
 ![Fig:sample github repo page](images/sample_github_repo.png)
 
-2) Use Rstudio to clone the repo by creating a new project (File > New Project... > Version Control > Git > Create Project). Note in [Fig:step 3], you have the option of putting the project in a subdirectory on your machine. Use the prompts after the "Browse..." button to navigate to the preferred location on your machine. Also note that you have the option to name the project on your local machine via "Project directory name" field (recommendation:avoid using special characters or spaces in this field. eg !, ", etc). There is also an option to "Open in new session" if you are working on another project while cloning a repo.
+2) Use Rstudio to clone the repo by creating a new project (File > New Project... > Version Control > Git > Create Project). Note in [Fig:step 2c], you have the option of putting the project in a subdirectory on your machine. Use the prompts after the "Browse..." button to navigate to the preferred location on your machine. Also note that you have the option to name the project on your local machine via "Project directory name" field (recommendation:avoid using special characters or spaces in this field. eg !, ", etc). There is also an option to "Open in new session" if you are working on another project while cloning a repo.
 
-![Fig:step 1](images/new_proj_wizard1.png)
+![Fig:step 2a](images/new_proj_wizard1.png)
 
-![Fig:step 2](images/new_proj_wizard2.png)
 
-![Fig:step 3](images/new_proj_wizard3.png)
+![Fig:step 2b](images/new_proj_wizard2.png)
+
+
+![Fig:step 2c](images/new_proj_wizard3.png)
+
 
 3) After cloning the repo, you can make changes to the local version of the repo. After making changes and saving, you will notice that the file changed will be highlighted under the git tab of the RStudio ui as displayed below.
 
 ![Fig:rstudio git ui](images/rstudio_git_ui.png)
 
-4) Ensure that the "Staged" check boxes are checked for the changes that you intend to commit and push to the repo on github. Note: that the status symbols of "A" and "M" denote the file added and modified respectively in the changes you are making. After checking the "Staged" check boxes, click on the "Commit" button to bring up the following window.
+4) Ensure that the "Staged" check boxes are checked for the changes that you intend to commit and push to the repo on github. Note: that the status symbols of "A" and "M" denote the file added and modified respectively in the changes you are making. After checking the "Staged" check boxes, click on the "Commit" button to bring up the following window. Enter an informative description of the changes you are making to the "Commit message" field. Once ready, hit the "Commit" button. A commit confirmation window will pop-up. You may close that window. then hit the "Push" button to push the commit to the repo. A push confirmation window will pop-up. You may close that window. You have just pushed changes to the repo on github.
 
+![Fig:rstudio commit-ui](images/commit_message.png)
+![Fig:rstudio commit-confirmation](images/commit_confirm.png)
+
+![Fig:rstudio push-button](images/push_button.png)
+![Fig:rstudio push-confirmation](images/push_confirm.png)
+
+
+5) If you are collaborating with collaborators, you can pull changes that were made by others to the master branch to the repo via the following button on the RStudio ui. Note the two ui elements highlighted in the image below: the pull button and the branch you are pulling (master branch in the example).
+
+![Fig:pull master](images/pull_button.png)
+
+6) If you are collaborating with a large number of collaborators, it may be better to use multiple branches within the repo to track changes before merging them to the master branch. For further details on branches and git, please check out [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches) and [about github](https://docs.github.com/en/get-started/using-git/about-git). 
+
+7) Note that the steps outlined in this page are very RStudio and UI centric relative to all the other references due to the nature of the work that the lab does. We also did not discuss more obscure issues about git such as [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo), [resolving conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github), etc. Ultimately, one should adopt a workflow that is most conducive to one's style of work.

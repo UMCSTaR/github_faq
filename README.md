@@ -89,7 +89,7 @@ alt="Fig:sample github repo page" />
 
 2)  Use Rstudio to clone the repo by creating a new project (File \> New
     Project… \> Version Control \> Git \> Create Project). Note in
-    \[Fig:step 3\], you have the option of putting the project in a
+    \[Fig:step 2c\], you have the option of putting the project in a
     subdirectory on your machine. Use the prompts after the “Browse…”
     button to navigate to the preferred location on your machine. Also
     note that you have the option to name the project on your local
@@ -99,18 +99,18 @@ alt="Fig:sample github repo page" />
     on another project while cloning a repo.
 
 <figure>
-<img src="images/new_proj_wizard1.png" alt="Fig:step 1" />
-<figcaption aria-hidden="true">Fig:step 1</figcaption>
+<img src="images/new_proj_wizard1.png" alt="Fig:step 2a" />
+<figcaption aria-hidden="true">Fig:step 2a</figcaption>
 </figure>
 
 <figure>
-<img src="images/new_proj_wizard2.png" alt="Fig:step 2" />
-<figcaption aria-hidden="true">Fig:step 2</figcaption>
+<img src="images/new_proj_wizard2.png" alt="Fig:step 2b" />
+<figcaption aria-hidden="true">Fig:step 2b</figcaption>
 </figure>
 
 <figure>
-<img src="images/new_proj_wizard3.png" alt="Fig:step 3" />
-<figcaption aria-hidden="true">Fig:step 3</figcaption>
+<img src="images/new_proj_wizard3.png" alt="Fig:step 2c" />
+<figcaption aria-hidden="true">Fig:step 2c</figcaption>
 </figure>
 
 3)  After cloning the repo, you can make changes to the local version of
@@ -128,4 +128,44 @@ alt="Fig:sample github repo page" />
     the status symbols of “A” and “M” denote the file added and modified
     respectively in the changes you are making. After checking the
     “Staged” check boxes, click on the “Commit” button to bring up the
-    following window.
+    following window. Enter an informative description of the changes
+    you are making to the “Commit message” field. Once ready, hit the
+    “Commit” button. A commit confirmation window will pop-up. You may
+    close that window. then hit the “Push” button to push the commit to
+    the repo. A push confirmation window will pop-up. You may close that
+    window. You have just pushed changes to the repo on github.
+
+![Fig:rstudio commit-ui](images/commit_message.png) ![Fig:rstudio
+commit-confirmation](images/commit_confirm.png)
+
+![Fig:rstudio push-button](images/push_button.png) ![Fig:rstudio
+push-confirmation](images/push_confirm.png)
+
+5)  If you are collaborating with collaborators, you can pull changes
+    that were made by others to the master branch to the repo via the
+    following button on the RStudio ui. Note the two ui elements
+    highlighted in the image below: the pull button and the branch you
+    are pulling (master branch in the example).
+
+<figure>
+<img src="images/pull_button.png" alt="Fig:pull master" />
+<figcaption aria-hidden="true">Fig:pull master</figcaption>
+</figure>
+
+6)  If you are collaborating with a large number of collaborators, it
+    may be better to use multiple branches within the repo to track
+    changes before merging them to the master branch. For further
+    details on branches and git, please check out
+    [branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)
+    and [about
+    github](https://docs.github.com/en/get-started/using-git/about-git).
+
+7)  Note that the steps outlined in this page are very RStudio and UI
+    centric relative to all the other references due to the nature of
+    the work that the lab does. We also did not discuss more obscure
+    issues about git such as
+    [forking](https://docs.github.com/en/get-started/quickstart/fork-a-repo),
+    [resolving
+    conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github),
+    etc. Ultimately, one should adopt a workflow that is most conducive
+    to one’s style of work.
