@@ -156,7 +156,12 @@ push-confirmation](images/push_confirm.png)
 <figcaption aria-hidden="true">Fig:pull master</figcaption>
 </figure>
 
-6)  If you are collaborating with a large number of collaborators, it
+6)  If you are collaborating on the same branch, it is good practice to
+    do a git pull before making any modifications to your project to get
+    the latest remote version from the repo and avoid any conflicting
+    changes when trying to commit and push aforementioned changes.
+
+7)  If you are collaborating with a large number of collaborators, it
     may be better to use multiple branches within the repo to track
     changes before merging them to the master branch. For further
     details on branches and git, please check out
@@ -164,7 +169,7 @@ push-confirmation](images/push_confirm.png)
     and [about
     github](https://docs.github.com/en/get-started/using-git/about-git).
 
-7)  Note that the steps outlined in this page are very RStudio and UI
+8)  Note that the steps outlined in this page are very RStudio and UI
     centric relative to all the other references due to the nature of
     the work that the lab does. We also did not discuss more obscure
     issues about git such as
